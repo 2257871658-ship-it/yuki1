@@ -1,0 +1,6 @@
+{
+  "name": "FridgeTwin",
+  "description": "Shared Fridge Digital Twin with blueprint wireframe schematics, expiration tracking, and recipe suggestions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

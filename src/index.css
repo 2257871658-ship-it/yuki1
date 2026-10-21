@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-geist: 'Geist', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+    --font-geist-mono: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    --font-inter: 'Inter', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  }
+
+  body {
+    font-family: var(--font-geist), var(--font-inter);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+.blueprint-grid {
+  background-size: 24px 24px;
+  background-image: 
+    linear-gradient(to right, rgba(108, 117, 125, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(108, 117, 125, 0.08) 1px, transparent 1px);
+}
+
+.blueprint-grid-dense {
+  background-size: 16px 16px;
+  background-image: 
+    linear-gradient(to right, rgba(108, 117, 125, 0.1) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(108, 117, 125, 0.1) 1px, transparent 1px);
+}
+
+.font-mono-tech {
+  font-family: var(--font-geist-mono);
+  letter-spacing: -0.01em;
+}
